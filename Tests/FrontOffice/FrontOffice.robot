@@ -23,6 +23,7 @@ Should be able to Access "Team" Page
     FrontOfficeApp.Validate "Team" Page
 
 Should successfully navigate to "Contact" page
+    [Tags]    test3    Prod
     FrontOfficeLandingPage.Navigate To
     TopNav.Select "Contact" Page
     ContactPage.Verify "Contact" Page Loaded
