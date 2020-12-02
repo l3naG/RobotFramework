@@ -35,6 +35,7 @@ Should successfully fill up the form entering correct data into each field
     FrontOfficeApp.Enter text for text fields    Lena Gasparikova    lenagasparikova@me.com    0944 779516    This is a message
 
 Should enter fields
+    [Tags]    test5    Smoke
     FrontOfficeLandingPage.Navigate To
     TopNav.Select "Contact" Page
     ContactPage.Verify "Contact" Page Loaded
