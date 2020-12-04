@@ -47,5 +47,5 @@ Should enter fields
     FrontOfficeApp.Click "Send Message" Button
 
 Test Feature-2
-    [Tags]   feature-2
+    [Tags]   feature-2  Dev  Smoke
     Log    Testing feature-2
