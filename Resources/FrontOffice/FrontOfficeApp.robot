@@ -56,7 +56,3 @@ Feature-2 Test
     ContactPage.Enter text for "Phone" field    ${phone_field}
     ContactPage.Enter text for "Message" field    ${message_field}
     ContactPage.Click "Send Message" Button
-
-Feature-2 Mini Test
-    [Tags]    mini-2
-    log    This is a mini
