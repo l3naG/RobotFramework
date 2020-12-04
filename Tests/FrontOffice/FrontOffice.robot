@@ -48,4 +48,8 @@ Should enter fields
 
 Test Feature-2
     [Tags]   feature-2  Dev  Smoke
-    Log    Testing feature-2
+    Log    Testing feature-2...
+
+Test Feature-2
+    [Tags]    Test    Smoke
+    Log    Testing Smoke...
