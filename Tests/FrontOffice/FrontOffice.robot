@@ -57,3 +57,7 @@ Test Feature-2
 Test Feature-2
     [Tags]    Regression 
     Log    Testing Regression...
+
+Test Feature-2
+    [Tags]    Regression Smoke
+    Log    Testing Smoked Regression...
