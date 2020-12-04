@@ -61,3 +61,7 @@ Feature-1 Test
 Mini Test Feature-1
     [Tags]    mini-1
     Log    Printing...
+
+Mini Test Feature-1
+    [Tags]    mini-2
+    log    Printing on repeat...
