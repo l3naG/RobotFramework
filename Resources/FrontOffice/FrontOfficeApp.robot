@@ -48,6 +48,14 @@ Enter text for "Messge" textarea
 Click "Send Message" Button
     ContactPage.Click "Send Message" Button
 
+Feature-2 Test
+        [Tags]
+        [Arguments]    ${name_field}    ${email_field}    ${phone_field}    ${message_field}
+        ContactPage.Enter text for "Name" field    ${name_field}
+        ContactPage.Enter text for "Email" field    ${email_field}
+        ContactPage.Enter text for "Phone" field    ${phone_field}
+        ContactPage.Enter text for "Message" field    ${message_field}
+        ContactPage.Click "Send Message" Button
 
 Feature-1 Test
     [Tags]    feature-1
