@@ -52,8 +52,12 @@ Click "Send Message" Button
 Feature-1 Test
     [Tags]    feature-1
     [Arguments]    ${name_field}    ${email_field}    ${phone_field}    ${message_field}
-        ContactPage.Enter text for "Name" field    ${name_field}
-        ContactPage.Enter text for "Email" field    ${email_field}
-        ContactPage.Enter text for "Phone" field    ${phone_field}
-        ContactPage.Enter text for "Message" field    ${message_field}
-        ContactPage.Click "Send Message" Button
+    ContactPage.Enter text for "Name" field    ${name_field}
+    ContactPage.Enter text for "Email" field    ${email_field}
+    ContactPage.Enter text for "Phone" field    ${phone_field}
+    ContactPage.Enter text for "Message" field    ${message_field}
+    ContactPage.Click "Send Message" Button
+
+Mini Test Feature-1
+    [Tags]    mini-1
+    Log    Printing...
