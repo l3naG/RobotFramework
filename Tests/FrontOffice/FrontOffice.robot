@@ -46,4 +46,6 @@ Should enter fields
     FrontOfficeApp.Enter text for "Messge" textarea    This is the second message
     FrontOfficeApp.Click "Send Message" Button
 
-
+Test Feature-2
+    [Tags]   feature-2
+    Log    Testing feature-2
