@@ -22,7 +22,7 @@ Validate "Contact" Page
     ContactPage.Verify "Contact" Page Loaded
 
 Enter text for text fields
-    [Arguments]    ${name_field}    ${email_field}    ${phone_field}    ${message_field}
+   [Arguments]    ${name_field}    ${email_field}    ${phone_field}    ${message_field}
     ContactPage.Enter text for "Name" field    ${name_field}
     ContactPage.Enter text for "Email" field    ${email_field}
     ContactPage.Enter text for "Phone" field    ${phone_field}
@@ -35,30 +35,21 @@ Enter text for "Name" field
 
 Enter text for "Email" field
     [Arguments]    ${email_field}
-    ContactPage.Enter text for "Email" field    ${email_field}
+        ContactPage.Enter text for "Email" field    ${email_field}
 
 Enter text for "Phone" field
     [Arguments]    ${phone_field}
     ContactPage.Enter text for "Phone" field    ${phone_field}
 
 Enter text for "Messge" textarea
-    [Arguments]    ${message_field}
-    ContactPage.Enter text for "Message" field    ${message_field}
+   [Arguments]    ${message_field}
+   ContactPage.Enter text for "Message" field    ${message_field}
 
 Click "Send Message" Button
     ContactPage.Click "Send Message" Button
 
 Feature-2 Test
-        [Tags]
-        [Arguments]    ${name_field}    ${email_field}    ${phone_field}    ${message_field}
-        ContactPage.Enter text for "Name" field    ${name_field}
-        ContactPage.Enter text for "Email" field    ${email_field}
-        ContactPage.Enter text for "Phone" field    ${phone_field}
-        ContactPage.Enter text for "Message" field    ${message_field}
-        ContactPage.Click "Send Message" Button
-
-Feature-1 Test
-    [Tags]    feature-1
+    [Tags]
     [Arguments]    ${name_field}    ${email_field}    ${phone_field}    ${message_field}
     ContactPage.Enter text for "Name" field    ${name_field}
     ContactPage.Enter text for "Email" field    ${email_field}
@@ -66,10 +57,6 @@ Feature-1 Test
     ContactPage.Enter text for "Message" field    ${message_field}
     ContactPage.Click "Send Message" Button
 
-Mini Test Feature-1
-    [Tags]    mini-1
-    Log    Printing...
-
-Mini Test Feature-1
+Feature-2 Mini Test
     [Tags]    mini-2
-    log    Printing on repeat...
+    log    This is a mini
