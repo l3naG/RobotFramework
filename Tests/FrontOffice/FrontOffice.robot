@@ -46,18 +46,18 @@ Should enter fields
     FrontOfficeApp.Enter text for "Messge" textarea    This is the second message
     FrontOfficeApp.Click "Send Message" Button
 
-Test Feature-2
+Test Feature-2A
     [Tags]   feature-2  Dev  Smoke
     Log    Testing feature-2...
 
-Test Feature-2
+Test Feature-2B
     [Tags]    Test    Smoke
     Log    Testing Smoke...
     
-Test Feature-2
+Test Feature-2C
     [Tags]    Regression 
     Log    Testing Regression...
 
-Test Feature-2
+Test Feature-2D
     [Tags]    Regression Smoke
     Log    Testing Smoked Regression...
